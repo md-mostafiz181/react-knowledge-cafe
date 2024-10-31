@@ -1,5 +1,7 @@
 
 import './App.css'
+import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
 
 function App() {
@@ -10,6 +12,10 @@ function App() {
 
       <div className='max-w-7xl mx-auto'>
          <Header></Header>
+         <div className='md:flex justify-between'>
+            <Blogs></Blogs>
+            <Bookmarks></Bookmarks>
+         </div>
       </div>
 
     </>
